@@ -1,0 +1,53 @@
+package guia1clasesobjetos;
+
+public class Guia1ClasesObjetos {
+
+    public static void main(String[] args) {
+        
+       /* Rectangulo rectangulo = new Rectangulo(5, 10);
+        System.out.println(rectangulo.calcularArea());
+        System.out.println(rectangulo.calcularPerimetro());
+        System.out.println(rectangulo.esCuadrado());
+        
+        Rectangulo rectangulo2 = new Rectangulo(7,7);
+        System.out.println(rectangulo2.calcularArea());
+        System.out.println(rectangulo2.esCuadrado());
+        */
+       
+       /*  Circulo circulo = new Circulo(5);
+       circulo.escalar(20);
+       System.out.println(circulo.calcularArea());
+       System.out.println(circulo.calcularCircunferencia());
+        */
+       
+      /*  Persona persona = new Persona("Ana", 16, 1.65);
+        System.out.println(persona.esMayorDeEdad());
+        System.out.println(persona.calcularIMC(60));
+        */
+      
+      /*Coche coche = new Coche("Toyota", "Yaris", 50_000, 30);
+        System.out.println(coche.calcularKilometrosRestantes());
+        
+        coche.recargarCombustible(50);
+        
+        System.out.println(coche.calcularKilometrosRestantes());
+        coche.mostrarDatos();
+        */
+      
+       /*CuentaBancaria cuenta1 = new CuentaBancaria(150000, "Luiz González", "4587625");
+        System.out.println(cuenta1.consultarSaldo());
+        //cuenta1.depositarDinero(12000);
+        cuenta1.retirarDinero(200000);
+        System.out.println(cuenta1.consultarSaldo());
+        */
+       
+       Libro libro1 = new Libro("Cien años de soledad", "García Márquez", 496, 200);
+        System.out.println(libro1.estaTerminado());
+        libro1.avanzarPagina(2);
+        System.out.println(libro1.mostrarPagina());
+        
+    }
+    
+
+    
+}
