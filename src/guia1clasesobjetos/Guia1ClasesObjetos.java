@@ -34,17 +34,39 @@ public class Guia1ClasesObjetos {
         coche.mostrarDatos();
         */
       
-       /*CuentaBancaria cuenta1 = new CuentaBancaria(150000, "Luiz González", "4587625");
+       /* CuentaBancaria cuenta1 = new CuentaBancaria(150000, "Luiz González", "4587625");
         System.out.println(cuenta1.consultarSaldo());
         //cuenta1.depositarDinero(12000);
         cuenta1.retirarDinero(200000);
         System.out.println(cuenta1.consultarSaldo());
         */
        
-       Libro libro1 = new Libro("Cien años de soledad", "García Márquez", 496, 200);
+      /* Libro libro1 = new Libro("Cien años de soledad", "García Márquez", 496, 200);
         System.out.println(libro1.estaTerminado());
         libro1.avanzarPagina(2);
         System.out.println(libro1.mostrarPagina());
+        */
+      
+       /*
+        Termometro termometroC2F = new Termometro(37.5);
+        System.out.println(termometroC2F.converterAFahren());
+        
+        Termometro termometroF2C = new Termometro(99.5);
+        System.out.println(termometroF2C.converterACelsius());
+         */
+       
+        Termometro termometro1 = new Termometro(37.5);
+        termometro1.aumentarTemperatura(1.5);
+        System.out.println(termometro1.mostrarTemperatura());
+        
+        Termometro termometro2 = new Termometro(38.5);
+        termometro2.bajarTemperatura(1.0);
+        System.out.println(termometro2.mostrarTemperatura());
+        
+        Termometro termometro3 = new Termometro(98.2);
+        termometro3.bajarTemperatura(1.0);
+        //System.out.println(termometro3.converterACelsius());
+        System.out.println(termometro3.mostrarTemperatura());
         
     }
     
