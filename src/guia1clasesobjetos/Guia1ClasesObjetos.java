@@ -55,6 +55,7 @@ public class Guia1ClasesObjetos {
         System.out.println(termometroF2C.converterACelsius());
          */
        
+       /* 
         Termometro termometro1 = new Termometro(37.5);
         termometro1.aumentarTemperatura(1.5);
         System.out.println(termometro1.mostrarTemperatura());
@@ -67,7 +68,16 @@ public class Guia1ClasesObjetos {
         termometro3.bajarTemperatura(1.0);
         //System.out.println(termometro3.converterACelsius());
         System.out.println(termometro3.mostrarTemperatura());
-        
+        */
+       
+       Producto producto1 = new Producto("Cola-cola", 2500, 10);
+       producto1.venderProducto(2);
+        System.out.println(producto1.mostrarStock());
+      // producto1.aplicarDescuento(10);
+      // System.out.println(producto1.mostrarPrecio());
+      
+       
+       
     }
     
 
