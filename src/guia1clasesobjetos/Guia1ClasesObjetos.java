@@ -69,13 +69,19 @@ public class Guia1ClasesObjetos {
         //System.out.println(termometro3.converterACelsius());
         System.out.println(termometro3.mostrarTemperatura());
         */
-       
-       Producto producto1 = new Producto("Cola-cola", 2500, 10);
-       producto1.venderProducto(2);
+       /*
+        Producto producto1 = new Producto("Cola-cola", 2500, 10);
+        producto1.venderProducto(2);
         System.out.println(producto1.mostrarStock());
-      // producto1.aplicarDescuento(10);
-      // System.out.println(producto1.mostrarPrecio());
-      
+      //producto1.aplicarDescuento(10);
+      //System.out.println(producto1.mostrarPrecio());
+*/
+        Pelota pelota1 = new Pelota("Nike", 15);
+        //Pelota pelota2 = new Pelota("Adidas", 15);
+        // System.out.println(pelota1.compararCircunferencias(pelota2));
+        pelota1.inflarPelota(5);
+        System.out.println(pelota1.mostrarCircunferencia());
+        
        
        
     }
